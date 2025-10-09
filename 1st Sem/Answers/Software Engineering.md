@@ -44,8 +44,47 @@
 ### Agile Software Development
 - **Principles and Manifesto**: Agile, formalized in 2001, prioritizes individuals and interactions, working software, customer collaboration, and responding to change. Key values: Adaptability over rigid planning.
 - **Methods**:
-  - **Scrum**: Framework with 2-4 week sprints, roles (Product Owner for backlog, Scrum Master for process, Development Team), and events (sprint planning, daily stand-ups, reviews, retrospectives).
+  - **Scrum**: Scrum is an Agile framework for managing and completing projects iteratively. Framework with 2-4 week sprints(Think of it as a “mini-project” inside the bigger project.), roles (**Product Owner for backlog**(list of features/tasks), **Scrum Master for process**(Ensures the Scrum process runs smoothly, removes obstacles, and helps the team follow Agile practices.), **Development Team**(Builds the product — designs, codes, tests, and delivers working software each sprint.), and **events** (sprint planning, daily stand-ups, reviews, retrospectives).
 
+
+## **a. What is Scrum?**
+
+* Scrum is an **Agile framework** for managing and completing projects **iteratively**.
+* It organizes work into **sprints**, which are short cycles (usually **2–4 weeks**) — think of each sprint as a **mini-project** inside the bigger project.
+
+---
+
+## **b. Scrum Roles**
+
+| **Role**             | **Responsibility**                                                                                                      |
+| -------------------- | ----------------------------------------------------------------------------------------------------------------------- |
+| **Product Owner**    | Maintains the **Product Backlog** (list of features/tasks) and decides **what to build first** based on business value. |
+| **Scrum Master**     | Ensures the **Scrum process runs smoothly**, removes obstacles, and helps the team follow Agile practices.              |
+| **Development Team** | Builds the product — designs, codes, tests, and delivers **working software** each sprint.                              |
+
+---
+
+## **c. Scrum Events**
+
+| **Event**                | **Purpose**                                                                                     |
+| ------------------------ | ----------------------------------------------------------------------------------------------- |
+| **Sprint Planning**      | Team decides **what work will be done** in the upcoming sprint.                                 |
+| **Daily Stand-Up**       | Short daily meeting (~15 min) to discuss **progress, plans, and blockers**.                     |
+| **Sprint Review**        | Team demonstrates the **working software** to stakeholders/customers and collects **feedback**. |
+| **Sprint Retrospective** | Team discusses **what went well, what went wrong, and how to improve** in the next sprint.      |
+
+---
+
+## **d. Example Scenario**
+
+**Project:** To-do app
+
+* **Product Owner**: Chooses features like “Add Task”, “Delete Task”.
+* **Scrum Master**: Ensures team has no blockers and meetings run on time.
+* **Development Team**: Implements features in a **2-week sprint**.
+* **Daily Stand-Up**: Each member says what they did yesterday, plan for today, and any issues.
+* **Sprint Review**: Shows working features to the user.
+* **Retrospective**: Team identifies improvements, e.g., better task estimation.
 
 
     - **Advantages**: Promotes transparency and quick adaptations; fosters team collaboration.
