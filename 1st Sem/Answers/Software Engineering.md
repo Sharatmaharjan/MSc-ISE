@@ -43,8 +43,8 @@
 
 ### Agile Software Development
 - **Principles and Manifesto**: Agile, formalized in 2001, prioritizes individuals and interactions, working software, customer collaboration, and responding to change. Key values: Adaptability over rigid planning.
-- **Methods**:
-  - **Scrum**: Scrum is an Agile framework for managing and completing projects iteratively. Framework with 2-4 week sprints(Think of it as a “mini-project” inside the bigger project.), roles (**Product Owner for backlog**(list of features/tasks), **Scrum Master for process**(Ensures the Scrum process runs smoothly, removes obstacles, and helps the team follow Agile practices.), **Development Team**(Builds the product — designs, codes, tests, and delivers working software each sprint.), and **events** (sprint planning, daily stand-ups, reviews, retrospectives).
+**Methods**:
+**1. Scrum**: Scrum is an Agile framework for managing and completing projects iteratively. Framework with 2-4 week sprints(Think of it as a “mini-project” inside the bigger project.), roles (**Product Owner for backlog**(list of features/tasks), **Scrum Master for process**(Ensures the Scrum process runs smoothly, removes obstacles, and helps the team follow Agile practices.), **Development Team**(Builds the product — designs, codes, tests, and delivers working software each sprint.), and **events** (sprint planning, daily stand-ups, reviews, retrospectives).
 
 
 ## **a. What is Scrum?**
@@ -90,10 +90,11 @@
     - **Advantages**: Promotes transparency and quick adaptations; fosters team collaboration.
     - **Disadvantages**: Can lead to scope creep without discipline; scales poorly without frameworks like SAFe.
     - **Example**: Spotify's squad model uses Scrum for music app features.
-  - **Extreme Programming (XP)**: Emphasizes technical practices like test-driven development (TDD), pair programming, and continuous integration.
+
+**2. Extreme Programming (XP)**: Emphasizes technical practices like test-driven development (TDD), pair programming, and continuous integration.
     - **Advantages**: Improves code quality; reduces bugs through frequent testing.
     - **Disadvantages**: Intensive for teams; pair programming can be resource-heavy.
-  - **Kanban**: Visualizes workflow on boards, limiting work-in-progress (WIP) to improve flow.
+**3. Kanban**: Visualizes workflow on boards, limiting work-in-progress (WIP) to improve flow.
     - **Advantages**: Flexible for ongoing maintenance; no fixed iterations.
     - **Disadvantages**: Lacks structure for new projects.
 - **When to Use Agile**: For dynamic environments like startups or web development (e.g., Netflix's microservices updates). In 2025, agile often integrates with DevOps for CI/CD pipelines using tools like Jenkins or GitHub Actions.
