@@ -92,11 +92,15 @@
     - **Example**: Spotify's squad model uses Scrum for music app features.
 
 **2. Extreme Programming (XP)**: Emphasizes technical practices like test-driven development (TDD), pair programming, and continuous integration.
+
     - **Advantages**: Improves code quality; reduces bugs through frequent testing.
     - **Disadvantages**: Intensive for teams; pair programming can be resource-heavy.
+    
 **3. Kanban**: Visualizes workflow on boards, limiting work-in-progress (WIP) to improve flow.
+
     - **Advantages**: Flexible for ongoing maintenance; no fixed iterations.
     - **Disadvantages**: Lacks structure for new projects.
+    
 - **When to Use Agile**: For dynamic environments like startups or web development (e.g., Netflix's microservices updates). In 2025, agile often integrates with DevOps for CI/CD pipelines using tools like Jenkins or GitHub Actions.
 - **Challenges and Best Practices**: Common pitfalls include "agilefall" (waterfall in disguise). Best practices: Regular retrospectives, user stories, and velocity tracking.
 
