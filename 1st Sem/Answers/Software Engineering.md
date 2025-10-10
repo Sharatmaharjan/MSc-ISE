@@ -43,7 +43,9 @@
 
 ### Agile Software Development
 - **Principles and Manifesto**: Agile, formalized in 2001, prioritizes individuals and interactions, working software, customer collaboration, and responding to change. Key values: Adaptability over rigid planning.
+
 **Methods**:
+
 **1. Scrum**: Scrum is an Agile framework for managing and completing projects iteratively. Framework with 2-4 week sprints(Think of it as a “mini-project” inside the bigger project.), roles (**Product Owner for backlog**(list of features/tasks), **Scrum Master for process**(Ensures the Scrum process runs smoothly, removes obstacles, and helps the team follow Agile practices.), **Development Team**(Builds the product — designs, codes, tests, and delivers working software each sprint.), and **events** (sprint planning, daily stand-ups, reviews, retrospectives).
 
 
