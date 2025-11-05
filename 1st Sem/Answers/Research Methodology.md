@@ -15,6 +15,112 @@ The scientific research process is a cyclical sequence of activities that ensure
 7.  **Drawing Inferences and Interpretation:** The results of the analysis are interpreted to determine what they mean for the hypothesis and existing theories. The researcher draws meaningful conclusions and acknowledges any limitations in the study.
 8.  **Writing the Research Report:** The final step is to document the entire process, including the problem, methods, findings, and conclusions, in a well-written, clear, and comprehensive report to disseminate the knowledge.
 
+
+## **Major Steps Involved in the Scientific Research Process (with IT Example)**
+
+
+### **1. Choosing a Topic / Formulating the Research Problem**
+
+**Explanation:**
+This is the first step where a researcher selects a topic of interest and identifies a specific problem to investigate. The problem should be clear, measurable, and researchable.
+
+**Example (IT):**
+A student is interested in cybersecurity and chooses the topic:
+
+> “Effectiveness of Two-Factor Authentication (2FA) in Preventing Unauthorized Access.”
+> The research problem becomes:
+> “How effective is two-factor authentication in improving data security compared to traditional password-only systems?”
+
+---
+
+### **2. Conducting a Literature Review**
+
+**Explanation:**
+The researcher studies existing research papers, articles, and technical reports to understand what has already been done and identify gaps in knowledge.
+
+**Example (IT):**
+The student reviews papers on password security, phishing attacks, and authentication methods. They find that **most studies focus on corporate systems but few examine university-level security systems.**
+
+---
+
+### **3. Defining the Research Question and Hypothesis**
+
+**Explanation:**
+A specific research question and a testable hypothesis are developed based on the literature review.
+
+**Example (IT):**
+
+* **Research Question:** Does implementing two-factor authentication reduce unauthorized login attempts in university email systems?
+* **Hypothesis:** Users with two-factor authentication enabled experience fewer unauthorized access attempts than those using only passwords.
+
+---
+
+### **4. Creating a Research Design (Methodology)**
+
+**Explanation:**
+The researcher plans how the study will be carried out — selecting participants, tools, data collection methods, and analysis techniques.
+
+**Example (IT):**
+The student decides to use a **quantitative experimental design**: two groups of 50 users — one using passwords only and another using 2FA — and monitor login attempts over 30 days.
+
+---
+
+### **5. Collecting Data**
+
+**Explanation:**
+Data is collected using the methods defined in the design while ensuring accuracy and reliability.
+
+**Example (IT):**
+The researcher collects **server log data** showing successful and failed login attempts for both groups during the 30-day period.
+
+---
+
+### **6. Analyzing Data**
+
+**Explanation:**
+The collected data is analyzed using statistical or data analysis tools to test the hypothesis.
+
+**Example (IT):**
+Using tools like **Python (Pandas/Matplotlib)** or **SPSS**, the student analyzes the login attempt data and finds that the 2FA group had **70% fewer unauthorized attempts** compared to the password-only group.
+
+---
+
+### **7. Drawing Inferences and Interpretation**
+
+**Explanation:**
+Results are interpreted to explain what they mean, how they relate to the hypothesis, and what their practical implications are.
+
+**Example (IT):**
+The researcher concludes that **two-factor authentication significantly improves security** and recommends universities adopt it for student and staff accounts.
+
+---
+
+### **8. Writing the Research Report**
+
+**Explanation:**
+The final step is preparing a detailed report describing the objectives, methods, results, analysis, and conclusions.
+
+**Example (IT):**
+The student writes a report titled:
+
+> *“A Comparative Study on the Effectiveness of Two-Factor Authentication in University Email Systems.”*
+> and presents it as part of their IT research project.
+
+---
+
+✅ **Summary Table (for Quick Revision):**
+
+| Step                              | Description                  | IT Example                                             |
+| --------------------------------- | ---------------------------- | ------------------------------------------------------ |
+| 1. Choosing Topic                 | Identify problem             | Effectiveness of 2FA in preventing unauthorized access |
+| 2. Literature Review              | Study existing work          | Review past research on password and authentication    |
+| 3. Research Question & Hypothesis | Formulate testable statement | 2FA users have fewer unauthorized attempts             |
+| 4. Research Design                | Plan method                  | Experimental design using two groups                   |
+| 5. Data Collection                | Gather info                  | Collect login attempt logs                             |
+| 6. Data Analysis                  | Analyze results              | Use Python/SPSS to find trends                         |
+| 7. Interpretation                 | Draw conclusions             | 2FA improves data security                             |
+| 8. Report Writing                 | Document findings            | Submit final IT research report                        |
+
 ---
 
 ## 2. Sampling Techniques (3 + 6 = 9 Marks)
