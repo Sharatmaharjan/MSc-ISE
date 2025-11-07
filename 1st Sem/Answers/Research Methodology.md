@@ -3,7 +3,7 @@
 ### What is Scientific Research? (2 Marks)
 **Scientific research** is a systematic, controlled, empirical, and critical investigation of hypothetical propositions about the presumed relations among natural phenomena. It is characterized by its rigor and objectivity, aiming to discover facts, interpret them, and revise accepted theories or laws in light of new facts. It follows a structured sequence of steps designed to ensure the findings are reliable and valid.
 
-### Major Steps Involved in the Scientific Research Process (7 Marks)
+### Major Steps Involved in the Scientific Research Process (7 Marks) [TLRRCADiiW]
 The scientific research process is a cyclical sequence of activities that ensures the investigation is organized and produces dependable results.  The major steps are:
 
 1.  **Choosing a Topic / Formulating the Research Problem:** This initial and crucial step involves selecting a topic of interest and defining the specific problem or gap in knowledge the research will address. The problem should be narrowed down into a clear, testable, and researchable question.
@@ -125,16 +125,16 @@ The student writes a report titled:
 
 ## 2. Sampling Techniques (3 + 6 = 9 Marks)
 
-### Differentiate between Probability and Non-Probability Sampling (3 Marks)
+### Differentiate between Probability and Non-Probability Sampling (3 Marks) [DRGB]
 
 | Feature | Probability Sampling | Non-Probability Sampling |
 | :--- | :--- | :--- |
-| **Definition** | A technique where every unit in the population has a **known, non-zero chance** of being selected. | A technique where samples are selected based on the researcher's **subjective judgment** or convenience. |
+| **Definition** | A technique where every member of the population has an **equal chance** of being selected. | A technique where samples are selected based on the researcher's **subjective judgment** or convenience. |
 | **Randomness** | Relies on **random selection**. | Does **not** rely on random selection. |
 | **Generalizability** | Findings can typically be **generalized** to the larger population (high inferential power). | Generalization is **limited** or impossible, as the sample may not be representative. |
 | **Bias** | **Minimizes** the potential for selection bias. | Has a **high risk** of selection bias. |
 
-### Discussion of Sampling Methods with Examples (6 Marks)
+### Discussion of Sampling Methods with Examples (6 Marks) [RSMs3]
 
 #### 1. Simple Random Sampling
 * **Discussion:** In this fundamental probability technique, every member of the population has an **equal chance** of being selected. Selection is typically conducted using a random number generator or a lottery method. This method is best when the population is homogeneous.
