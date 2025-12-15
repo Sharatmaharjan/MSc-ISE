@@ -1,462 +1,337 @@
-# MIE114: Information Security
+# **MIE114: Information Security – Elaborated Exam-Oriented Answers**
 
-Q1. As a CISO of a commercial bank of Nepal, suggest security measures using CIA triad and People–Policy–Technology framework (9 marks)
+---
 
-A commercial bank is a high-value target due to sensitive financial data, online banking systems, regulatory obligations (NRB guidelines), and customer trust. Hence, security measures must be holistic and layered.
+## **Q1. As a CISO of a commercial bank of Nepal, suggest security measures using CIA triad and People–Policy–Technology framework (9 marks)**
 
-1. Confidentiality
+A commercial bank is a **high-value target** due to sensitive financial data, online banking systems, regulatory obligations (NRB guidelines), and customer trust. Hence, security measures must be **holistic and layered**.
+
+### **1. Confidentiality**
 
 Ensures that information is accessible only to authorized individuals.
 
-People
+#### **People**
 
-Employee background checks and vetting
+* Employee background checks and vetting
+* Regular security awareness training on phishing, insider threats, and data privacy
+* Clear segregation of duties to prevent misuse of privileges
 
-Regular security awareness training on phishing, insider threats, and data privacy
+#### **Policy**
 
-Clear segregation of duties to prevent misuse of privileges
+* Data classification policy (public, internal, confidential, highly confidential)
+* Access control and password management policy
+* Non-disclosure agreements (NDA)
 
+#### **Technology**
 
-Policy
-
-Data classification policy (public, internal, confidential, highly confidential)
-
-Access control and password management policy
-
-Non-disclosure agreements (NDA)
-
-
-Technology
-
-Strong encryption (AES for data at rest, TLS for data in transit)
-
-Multi-Factor Authentication (MFA) for staff and customers
-
-Database access control, VPNs for remote access
-
-
+* Strong encryption (AES for data at rest, TLS for data in transit)
+* Multi-Factor Authentication (MFA) for staff and customers
+* Database access control, VPNs for remote access
 
 ---
 
-2. Integrity
+### **2. Integrity**
 
 Ensures accuracy, completeness, and reliability of data.
 
-People
+#### **People**
 
-Authorized personnel for data modification
+* Authorized personnel for data modification
+* Dual control and maker–checker concept in banking transactions
 
-Dual control and maker–checker concept in banking transactions
+#### **Policy**
 
+* Change management and configuration management policy
+* Logging and audit trail policy
 
-Policy
+#### **Technology**
 
-Change management and configuration management policy
-
-Logging and audit trail policy
-
-
-Technology
-
-Hashing algorithms (SHA-256)
-
-Digital signatures for transaction verification
-
-Database constraints and version control
-
-
+* Hashing algorithms (SHA-256)
+* Digital signatures for transaction verification
+* Database constraints and version control
 
 ---
 
-3. Availability
+### **3. Availability**
 
 Ensures systems and services are accessible whenever required.
 
-People
+#### **People**
 
-Dedicated incident response and disaster recovery teams
+* Dedicated incident response and disaster recovery teams
+* Periodic DR drills and simulations
 
-Periodic DR drills and simulations
+#### **Policy**
 
+* Business Continuity Plan (BCP)
+* Disaster Recovery Plan (DRP)
+* Backup and retention policy
 
-Policy
+#### **Technology**
 
-Business Continuity Plan (BCP)
+* Redundant servers and network links
+* Load balancing and failover mechanisms
+* UPS, generators, and DDoS mitigation tools
 
-Disaster Recovery Plan (DRP)
-
-Backup and retention policy
-
-
-Technology
-
-Redundant servers and network links
-
-Load balancing and failover mechanisms
-
-UPS, generators, and DDoS mitigation tools
-
-
-Conclusion:
-Applying the CIA triad supported by People, Policy, and Technology ensures confidentiality, integrity, and availability of banking information systems.
-
+**Conclusion:**
+Applying the **CIA triad supported by People, Policy, and Technology** ensures **confidentiality, integrity, and availability** of banking information systems.
 
 ---
 
-Q2. List application security threats and explain three prevalent threats (9 marks)
+## **Q2. List application security threats and explain three prevalent threats (9 marks)**
 
-Application Security Threats
+### **Application Security Threats**
 
-SQL Injection
-
-Cross-Site Scripting (XSS)
-
-Cross-Site Request Forgery (CSRF)
-
-Broken Authentication
-
-Insecure Direct Object References
-
-Buffer Overflow
-
-Security Misconfiguration
-
-
+* SQL Injection
+* Cross-Site Scripting (XSS)
+* Cross-Site Request Forgery (CSRF)
+* Broken Authentication
+* Insecure Direct Object References
+* Buffer Overflow
+* Security Misconfiguration
 
 ---
 
-1. SQL Injection
+### **1. SQL Injection**
 
 Occurs when unvalidated user input is executed as part of an SQL query.
 
-Allows attackers to read, modify, or delete database records
+* Allows attackers to read, modify, or delete database records
+* Common in login forms and search fields
 
-Common in login forms and search fields
+**Impact:**
 
+* Data breach
+* Financial fraud
+* Loss of confidentiality and integrity
 
-Impact:
+**Prevention:**
 
-Data breach
-
-Financial fraud
-
-Loss of confidentiality and integrity
-
-
-Prevention:
-
-Prepared statements
-
-Input validation
-
-Least privilege database accounts
-
-
+* Prepared statements
+* Input validation
+* Least privilege database accounts
 
 ---
 
-2. Cross-Site Scripting (XSS)
+### **2. Cross-Site Scripting (XSS)**
 
 Injection of malicious scripts into trusted web applications.
 
-Script executes in victim’s browser
+* Script executes in victim’s browser
+* Can steal cookies or redirect users
 
-Can steal cookies or redirect users
+**Impact:**
 
+* Session hijacking
+* Identity theft
 
-Impact:
+**Prevention:**
 
-Session hijacking
-
-Identity theft
-
-
-Prevention:
-
-Output encoding
-
-Content Security Policy (CSP)
-
-Input sanitization
-
-
+* Output encoding
+* Content Security Policy (CSP)
+* Input sanitization
 
 ---
 
-3. Broken Authentication
+### **3. Broken Authentication**
 
 Weak authentication mechanisms allow attackers to impersonate users.
 
-Poor password storage
+* Poor password storage
+* Session fixation
 
-Session fixation
+**Impact:**
 
+* Account takeover
+* Unauthorized access
 
-Impact:
+**Prevention:**
 
-Account takeover
-
-Unauthorized access
-
-
-Prevention:
-
-Multi-factor authentication
-
-Secure session management
-
-Password hashing
-
-
+* Multi-factor authentication
+* Secure session management
+* Password hashing
 
 ---
 
-Q3. Differentiate between DES, 3DES, AES, and RSA (9 marks)
+## **Q3. Differentiate between DES, 3DES, AES, and RSA (9 marks)**
 
-Criteria	DES	3DES	AES	RSA
+| Criteria       | DES         | 3DES              | AES             | RSA                |
+| -------------- | ----------- | ----------------- | --------------- | ------------------ |
+| Algorithm Type | Symmetric   | Symmetric         | Symmetric       | Asymmetric         |
+| Key Length     | 56-bit      | 112/168-bit       | 128/192/256-bit | 1024–4096-bit      |
+| Block Size     | 64-bit      | 64-bit            | 128-bit         | N/A                |
+| Speed          | Fast        | Slow              | Very fast       | Very slow          |
+| Security Level | Weak        | Moderate          | Very strong     | Strong             |
+| Usage          | Obsolete    | Legacy systems    | Modern standard | Key exchange       |
+| Example Use    | Old banking | Legacy encryption | Disk, VPN, SSL  | Digital signatures |
 
-Algorithm Type	Symmetric	Symmetric	Symmetric	Asymmetric
-Key Length	56-bit	112/168-bit	128/192/256-bit	1024–4096-bit
-Block Size	64-bit	64-bit	128-bit	N/A
-Speed	Fast	Slow	Very fast	Very slow
-Security Level	Weak	Moderate	Very strong	Strong
-Usage	Obsolete	Legacy systems	Modern standard	Key exchange
-Example Use	Old banking	Legacy encryption	Disk, VPN, SSL	Digital signatures
+**Conclusion:**
 
-
-Conclusion:
-
-AES is the most secure and efficient symmetric algorithm
-
-RSA is computationally expensive but essential for secure key exchange
-
-
+* **AES** is the most secure and efficient symmetric algorithm
+* **RSA** is computationally expensive but essential for secure key exchange
 
 ---
 
-Q4. What is a firewall? Compare types with pros and cons (9 marks)
+## **Q4. What is a firewall? Compare types with pros and cons (9 marks)**
 
-Firewall
+### **Firewall**
 
-A firewall is a network security mechanism that enforces security policies by monitoring and controlling traffic between trusted and untrusted networks.
-
-
----
-
-Types of Firewalls
-
-1. Packet Filtering Firewall
-
-Operates at network layer
-
-
-Pros:
-
-Simple and fast
-
-
-Cons:
-
-No payload inspection
-
-Vulnerable to spoofing
-
-
+A firewall is a **network security mechanism** that enforces security policies by monitoring and controlling traffic between trusted and untrusted networks.
 
 ---
 
-2. Stateful Inspection Firewall
+### **Types of Firewalls**
 
-Tracks connection state
+#### **1. Packet Filtering Firewall**
 
+* Operates at network layer
 
-Pros:
+**Pros:**
 
-Better security than packet filtering
+* Simple and fast
 
+**Cons:**
 
-Cons:
-
-More memory and processing required
-
-
-
----
-
-3. Proxy (Application-Level) Firewall
-
-Acts as intermediary
-
-
-Pros:
-
-Deep packet inspection
-
-High security
-
-
-Cons:
-
-Slower performance
-
-
+* No payload inspection
+* Vulnerable to spoofing
 
 ---
 
-4. Next-Generation Firewall (NGFW)
+#### **2. Stateful Inspection Firewall**
 
-Combines firewall, IDS/IPS, malware detection
+* Tracks connection state
 
+**Pros:**
 
-Pros:
+* Better security than packet filtering
 
-Comprehensive protection
+**Cons:**
 
-
-Cons:
-
-High cost and complexity
-
-
+* More memory and processing required
 
 ---
 
-Q5. Why IS audit is needed and steps of IS audit process (9 marks)
+#### **3. Proxy (Application-Level) Firewall**
 
-Need for IS Audit
+* Acts as intermediary
 
-Ensure confidentiality, integrity, and availability
+**Pros:**
 
-Compliance with legal and regulatory requirements
+* Deep packet inspection
+* High security
 
-Detect weaknesses and control failures
+**Cons:**
 
-Protect organizational assets
-
-Improve governance and risk management
-
-
+* Slower performance
 
 ---
 
-Steps of IS Audit Process
+#### **4. Next-Generation Firewall (NGFW)**
 
-1. Audit Planning
+* Combines firewall, IDS/IPS, malware detection
 
-Define scope and objectives
+**Pros:**
 
+* Comprehensive protection
 
+**Cons:**
 
-2. Risk Assessment
-
-Identify threats and vulnerabilities
-
-
-
-3. Control Evaluation
-
-Review administrative, technical, and physical controls
-
-
-
-4. Audit Testing
-
-Compliance and substantive testing
-
-
-
-5. Audit Reporting
-
-Findings, risk ratings, recommendations
-
-
-
-6. Follow-Up
-
-Ensure corrective actions implemented
-
-
-
-
+* High cost and complexity
 
 ---
 
-Q6. What is BCP? Differentiate between BCP and DRP (9 marks)
+## **Q5. Why IS audit is needed and steps of IS audit process (9 marks)**
 
-Business Continuity Plan (BCP)
+### **Need for IS Audit**
 
-BCP is a strategic plan that ensures critical business operations continue during and after disruptive events.
-
-Difference between BCP and DRP
-
-Aspect	BCP	DRP
-
-Focus	Business continuity	IT recovery
-Scope	Organization-wide	IT systems only
-Activation Time	Before and during disaster	After disaster
-Objective	Business survival	System restoration
-Example	Manual banking services	Data center recovery
-
-
+* Ensure confidentiality, integrity, and availability
+* Compliance with legal and regulatory requirements
+* Detect weaknesses and control failures
+* Protect organizational assets
+* Improve governance and risk management
 
 ---
 
-Q7. Short Notes (Any TWO) – 2 × 4.5 = 9 marks
+### **Steps of IS Audit Process**
 
-(a) Wireless Security Threats
+1. **Audit Planning**
 
-Eavesdropping
+   * Define scope and objectives
+2. **Risk Assessment**
 
-Rogue access points
+   * Identify threats and vulnerabilities
+3. **Control Evaluation**
 
-Man-in-the-middle attacks
+   * Review administrative, technical, and physical controls
+4. **Audit Testing**
 
-Weak encryption (WEP)
+   * Compliance and substantive testing
+5. **Audit Reporting**
 
-Evil Twin attacks
+   * Findings, risk ratings, recommendations
+6. **Follow-Up**
 
-
-Countermeasures:
-
-WPA3 encryption
-
-Strong authentication
-
-Wireless IDS
-
-
+   * Ensure corrective actions implemented
 
 ---
 
-(b) Codes of Ethics
+## **Q6. What is BCP? Differentiate between BCP and DRP (9 marks)**
 
-Codes of ethics define moral responsibilities of IT professionals.
+### **Business Continuity Plan (BCP)**
 
-Key Principles:
+BCP is a **strategic plan** that ensures **critical business operations continue** during and after disruptive events.
 
-Integrity and honesty
+### **Difference between BCP and DRP**
 
-Confidentiality
-
-Professional competence
-
-Social responsibility
-
-
-Examples: ACM and IEEE codes of ethics
-
+| Aspect          | BCP                        | DRP                  |
+| --------------- | -------------------------- | -------------------- |
+| Focus           | Business continuity        | IT recovery          |
+| Scope           | Organization-wide          | IT systems only      |
+| Activation Time | Before and during disaster | After disaster       |
+| Objective       | Business survival          | System restoration   |
+| Example         | Manual banking services    | Data center recovery |
 
 ---
 
-(c) RTO and RPO
+## **Q7. Short Notes (Any TWO) – 2 × 4.5 = 9 marks**
 
-RTO: Maximum acceptable downtime
+### **(a) Wireless Security Threats**
 
-RPO: Maximum tolerable data loss
+* Eavesdropping
+* Rogue access points
+* Man-in-the-middle attacks
+* Weak encryption (WEP)
+* Evil Twin attacks
 
+**Countermeasures:**
 
-Importance:
+* WPA3 encryption
+* Strong authentication
+* Wireless IDS
+
+---
+
+### **(b) Codes of Ethics**
+
+Codes of ethics define **moral responsibilities** of IT professionals.
+
+**Key Principles:**
+
+* Integrity and honesty
+* Confidentiality
+* Professional competence
+* Social responsibility
+
+**Examples:** ACM and IEEE codes of ethics
+
+---
+
+### **(c) RTO and RPO**
+
+* **RTO:** Maximum acceptable downtime
+* **RPO:** Maximum tolerable data loss
+
+**Importance:**
 Helps organizations design effective backup and recovery strategies.
-
 
 ---
