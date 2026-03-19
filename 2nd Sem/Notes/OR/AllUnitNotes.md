@@ -758,3 +758,155 @@
 
 - **Real-World Analogy:**
     - Using OptQuest with Crystal Ball is like having a master chef (optimizer) who can instantly test thousands of recipes (decision variable combinations) by having a virtual tasting panel (simulation) evaluate each recipe under many different conditions (uncertainty) and tell you which recipe tastes best on average.
+
+
+-----
+
+### Unit 7: Systems Modeling and Simulations (6 Hrs)
+
+**General Objective:** To understand the principles of modeling dynamic systems and simulating their behavior over time, with emphasis on queueing and inventory systems.
+
+---
+
+#### 1. Application of Dynamic System Models
+
+- **Definition of Dynamic Systems:** Systems where the output/behavior changes over time in response to inputs and internal interactions. Unlike static models (e.g., linear programming), dynamic models capture evolution, feedback loops, and time-dependent behavior.
+- **Types of Dynamic Models :**
+    - **Continuous Time Models:** State variables change continuously over time (e.g., fluid flow in a tank, population growth). Described by differential equations.
+    - **Discrete Time Models:** State changes occur at specific time intervals (e.g., monthly inventory reviews, daily stock prices). Described by difference equations.
+    - **Discrete Event Models:** State changes occur only when specific events happen (e.g., customer arrival, machine breakdown). This is the primary approach for queueing and many inventory systems.
+- **Applications Across Industries :**
+    - **Aerospace/Automotive:** Aircraft flight dynamics, vehicle crash testing simulation, powertrain performance evaluation .
+    - **Supply Chain:** Dynamic inventory policies under varying demand, logistics network behavior under disruption.
+    - **Healthcare:** Patient flow through hospital departments, epidemic spread modeling.
+    - **Manufacturing:** Production line throughput, machine utilization, bottleneck identification.
+    - **Energy Systems:** Power grid stability, renewable energy integration, battery storage optimization .
+- **Real-World Example: Automotive Crash Testing :**
+    - **Scenario:** Vehicle manufacturers must ensure passenger safety during collisions.
+    - **Dynamic Model:** Finite element analysis (FEA) models with millions of elements representing vehicle structure, dummy occupants, and crash mechanics.
+    - **Simulation Benefits:** Reduces need for physical prototypes (costly and time-consuming), enables testing of countless crash scenarios, accelerates design iterations.
+    - **Reduced-Order Modeling (ROM):** Complex components (e.g., seat recliner mechanism with 2-10 million elements) are replaced with computationally efficient surrogates, enabling system-level analysis that would otherwise be prohibitively expensive.
+- **Real-World Analogy:**
+    - A dynamic system model is like a flight simulator for pilots. It doesn't just show a static picture of the cockpit—it models how the plane responds to every control input, changing weather conditions, and system failures over time, allowing pilots to train safely before flying a real aircraft.
+
+---
+
+#### 2. Queueing Systems
+
+- **Definition:** A queueing system consists of customers arriving for service, waiting in line (queue) if the server is busy, receiving service, and then departing. Queueing theory provides mathematical models to analyze and optimize such systems.
+- **Key Components (Kendall's Notation A/B/c/K/N/D) :**
+    - **Arrival Process (A):** Pattern of customer arrivals (e.g., M = Markovian/Poisson process, D = deterministic, G = general).
+    - **Service Process (B):** Pattern of service times (e.g., M = exponential, D = deterministic, G = general).
+    - **Number of Servers (c):** Parallel servers (e.g., 1 for single server, s for multiple servers).
+    - **System Capacity (K):** Maximum customers allowed (infinite if omitted).
+    - **Population Size (N):** Size of customer population (infinite if omitted).
+    - **Queue Discipline (D):** Order of service (FIFO, LIFO, priority).
+- **M/M/1 Queue: The Fundamental Model :**
+    - **Notation:** M/M/1 = Poisson arrivals (exponential interarrival times), exponential service times, single server.
+    - **Key Performance Measures (λ = arrival rate, μ = service rate, ρ = λ/μ = utilization):**
+        - **Server Utilization:** `ρ = λ/μ` (must be <1 for stability).
+        - **Mean Number in System:** `L = λ/(μ-λ) = ρ/(1-ρ)`.
+        - **Mean Number in Queue:** `Lq = λ²/(μ(μ-λ)) = ρ²/(1-ρ)`.
+        - **Mean Time in System:** `W = 1/(μ-λ)`.
+        - **Mean Waiting Time in Queue:** `Wq = λ/(μ(μ-λ))` .
+    - **Theoretical vs. Simulation Results:** Simulation models validate against these theoretical formulas; discrepancies indicate modeling errors or insufficient simulation runs .
+- **Advanced Queueing Systems: M/M/1 with N-Policy :**
+    - **Concept:** Server remains idle until queue length reaches threshold N, then serves until system empty.
+    - **Application:** Video streaming buffer management—player waits (stalls) until N frames are buffered, then plays continuously until buffer empties.
+    - **State Representation:** Two-dimensional state `(X,Y)` where X = buffer content, Y = player status (0 = stalling, 1 = playing) .
+    - **Performance Metrics:**
+        - **Stalling Ratio:** Proportion of time player is stalled (waiting for buffer).
+        - **Stall Frequency:** How often playback interruptions occur.
+        - **Trade-off:** Higher N increases startup delay but reduces stall frequency—critical user experience optimization .
+- **Advantages of Queueing Models:**
+    - **Predictive Power:** Estimate waiting times, queue lengths, server utilization without building physical systems.
+    - **Bottleneck Identification:** Identify which resources limit system throughput.
+    - **Capacity Planning:** Determine optimal server count, staffing levels.
+    - **Cost-Benefit Analysis:** Quantify trade-offs between service level (waiting time) and service cost (more servers).
+- **Disadvantages:**
+    - **Mathematical Complexity:** Analytical solutions exist only for simple systems (Markovian assumptions).
+    - **Assumption Limitations:** Real-world arrivals/service may not follow theoretical distributions.
+    - **Steady-State Requirement:** Many formulas assume long-run equilibrium, not transient behavior.
+
+- **Real-World Example: Bank Teller Operations :**
+    - **Scenario:** A bank with one teller (server) experiences customer arrivals averaging 20 per hour (λ = 20), service rate 25 per hour (μ = 25).
+    - **Analysis:** Utilization ρ = 20/25 = 80%. Average waiting time Wq = 20/(25×(25-20)) = 20/125 = 0.16 hours = 9.6 minutes.
+    - **Decision:** If 10-minute waits are unacceptable, consider adding second teller (M/M/2) or reducing service time variability.
+
+---
+
+#### 3. Modeling and Simulating Dynamic Inventory Models
+
+- **Inventory System Dynamics:** Inventory levels change over time due to:
+    - **Inflows:** Orders received from suppliers (after lead time).
+    - **Outflows:** Customer demand (may be deterministic or probabilistic).
+    - **Control Policy:** Rules determining when and how much to order.
+- **Two Fundamental Inventory Control Approaches :**
+    - **Economic Order Quantity (EOQ) Model:**
+        - **Assumptions:** Constant, known demand; constant lead time; instantaneous replenishment; no stockouts allowed.
+        - **Decision Variables:** Order quantity Q*, Reorder point R.
+        - **Formula:** `EOQ = √(2DS/H)` where D = annual demand, S = ordering cost, H = holding cost per unit per year.
+        - **Advantages:** Simple, optimal under idealized conditions.
+        - **Disadvantages:** Unrealistic assumptions—demand uncertainty, variable lead times not captured.
+    - **Simulation-Based Inventory Models :**
+        - **Approach:** Model inventory system with probabilistic demand and lead time distributions.
+        - **Two Common Policies:**
+            - **Reorder Point (ROP) Model:** Continuous review—order when inventory falls to R.
+            - **Periodic Review Model:** Review at fixed intervals; order up to target level.
+        - **Output Metrics :** Mean demand, mean lead time, number of reviews, inventory years, stockout years, number of stockouts, number of orders, carrying cost, stockout cost (time-based & quantity-based), ordering cost, review cost, total cost.
+- **When to Use Each Approach :**
+    - **Use EOQ When:** Demand is constant and known with certainty (e.g., shock absorbers in the plant study—stable, predictable demand).
+    - **Use Simulation When:** Demand follows a probability distribution, lead times are variable, stockout costs are significant (e.g., bicycles in the plant study—demand varies seasonally and unpredictably).
+- **Building Inventory Simulation Models:**
+    - **Step 1: Define System Structure:**
+        - Product types (single vs. multi-product) .
+        - Supply chain network (suppliers, warehouses, retailers).
+        - Review policy (continuous vs. periodic).
+    - **Step 2: Specify Probability Distributions:**
+        - Demand distribution (Normal, Poisson, empirical from historical data).
+        - Lead time distribution (often Exponential, Lognormal).
+    - **Step 3: Define Control Policy:**
+        - Reorder point R (trigger level).
+        - Order quantity Q (fixed) or order-up-to level S.
+    - **Step 4: Run Simulation:**
+        - Track inventory levels, stockout events, orders placed, costs incurred.
+        - Simulate for sufficient duration (e.g., multiple years) to capture demand variability.
+    - **Step 5: Analyze Outputs :**
+        - **Service Level:** Probability of no stockout per cycle.
+        - **Fill Rate:** Proportion of demand satisfied from stock.
+        - **Expected Total Cost:** Sum of ordering, holding, and stockout costs.
+        - **Safety Stock Level:** Buffer stock needed to achieve target service level.
+- **Advantages of Inventory Simulation:**
+    - **Handles Real-World Complexity:** Variable demand, stochastic lead times, multiple products, constraints.
+    - **Risk-Free Experimentation:** Test policies without disrupting actual operations.
+    - **Visualization:** Track inventory dynamics over time, identify patterns (e.g., seasonal peaks).
+    - **Optimization Integration:** Combine with OptQuest-like tools to find optimal (R,Q) or (s,S) policies.
+- **Disadvantages:**
+    - **Data Intensive:** Requires accurate demand distributions and cost parameters.
+    - **Model Validation:** Must ensure simulation accurately represents real system.
+    - **Computational Time:** Multiple replications needed for statistical confidence.
+
+- **Real-World Example: Paper Industry Raw Material Inventory :**
+    - **Problem:** SPM Paper Industry needed to minimize raw material inventory while avoiding stockouts.
+    - **Approach:** Simulation model (Awesim software) with:
+        - Variable daily consumption (probabilistic demand).
+        - Variable supplier lead times.
+        - Objective: Find minimum buffer stock level.
+    - **Outputs:** Optimal order quantity, reorder point, order frequency.
+    - **Result:** Significant inventory reduction while maintaining production continuity.
+
+- **Real-World Analogy:**
+    - Simulating an inventory system is like a pilot training on a flight simulator before flying a real plane. You can test extreme scenarios (sudden demand spikes, supplier delays) safely, see how the system responds, and refine your policies before implementing them in the real world where mistakes cost real money.
+
+---
+
+#### Summary Table: Simulation Applications Comparison
+
+| **Aspect** | **Dynamic Systems** | **Queueing Systems** | **Inventory Systems** |
+| :--- | :--- | :--- | :--- |
+| **Primary Focus** | System behavior over time | Waiting lines, congestion | Stock levels, ordering policies |
+| **Key Variables** | State variables (continuous/discrete) | Arrival rate, service rate, queue length | Demand rate, lead time, order quantity |
+| **Performance Metrics** | Stability, response time, accuracy | Waiting time, server utilization, queue length | Service level, fill rate, total cost |
+| **Analytical Methods** | Differential equations, control theory | Queueing theory formulas | EOQ, newsvendor, base stock |
+| **When Simulation Needed** | Nonlinearities, feedback loops | Non-Markovian arrivals/service, complex routing | Probabilistic demand/lead time, multi-product |
+| **Real-World Example** | Aircraft crash testing  | Video streaming buffer  | Paper mill inventory  |
