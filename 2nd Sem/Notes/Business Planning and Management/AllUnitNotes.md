@@ -144,6 +144,145 @@ Management thought didn't emerge in a vacuum; it evolved in response to various 
 
 ---
 
+# Unit 3: Planning and Decision Making (4 Hrs)
+
+## Part A: Planning
+
+### 1. Planning: An Introduction
+
+- **Definition:** Planning is the primary management function that involves defining the organization’s goals, establishing an overall strategy for achieving those goals, and developing a comprehensive hierarchy of plans to integrate and coordinate activities.
+- **Key Idea:** It is deciding *in advance* what to do, how to do it, when to do it, and who is to do it. Planning bridges the gap from where we are to where we want to go.
+- **Real World Analogy:** Planning is like a GPS navigation system before a road trip. You enter your destination (goal), the GPS calculates the best route (strategy), and gives turn-by-turn directions (action plan). Without it, you may wander aimlessly.
+
+### 2. Types of Planning
+
+Plans can be classified by breadth, time frame, specificity, and frequency of use.
+
+| Basis | Type | Description | Real World Example |
+| :--- | :--- | :--- | :--- |
+| **Breadth** | **Strategic** | Long-term, organization-wide, establishes overall goals and positioning. Done by top management. | A company’s 5-year plan to enter a new international market. |
+| | **Tactical (Operational)** | Short-term, specific to departments, translates strategic plans into concrete actions. Done by middle/lower management. | A quarterly plan for the marketing department to generate 500 leads for the new market. |
+| **Time Frame** | **Long-term** | Typically > 3 years. Focuses on vision and direction. | Building a new manufacturing plant over 4 years. |
+| | **Short-term** | ≤ 1 year. Focuses on immediate activities. | A weekly production schedule. |
+| **Specificity** | **Directional (Flexible)** | Provides general guidelines; broad, no fixed deadlines. Used in uncertain environments. | “Improve customer satisfaction by responding faster.” |
+| | **Specific** | Clearly defined, leaves no room for ambiguity. Must meet precise targets and deadlines. | “Respond to 95% of customer emails within 2 hours.” |
+| **Frequency** | **Standing (Policies, Procedures, Rules)** | Used repeatedly for recurring situations. | **Policy:** “We are an equal opportunity employer.” **Procedure:** Steps to reimburse an employee for travel. **Rule:** “No smoking inside the building.” |
+| | **Single-Use (Budgets, Schedules, Projects)** | Created for a one-time, unique situation. | A budget for a specific product launch event. |
+
+### 3. Planning as a Basic Function
+
+- Planning is considered the **primary or basic** function of management because it precedes all other functions (Organizing, Staffing, Leading, Controlling).
+- **Why basic?**
+    - Without a plan, there is nothing to organize around.
+    - Without a plan, there are no standards to control against.
+    - Without a plan, leading lacks direction.
+- **Real World Analogy:** In building a house, you need an architectural blueprint (plan) before you can pour the foundation (organizing) or hire workers (staffing/leading) or inspect for quality (controlling).
+
+### 4. Effective Plan and its Characteristics
+
+An effective plan is not just a document; it works in practice. Key characteristics:
+
+1.  **Goal-Oriented:** Clearly contributes to achieving specific organizational objectives.
+2.  **Integrated:** All plans (strategic, tactical, operational) are aligned and mutually supportive.
+3.  **Practical & Feasible:** Can be realistically implemented with available resources (time, money, skills).
+4.  **Flexible:** Allows for adaptation when circumstances change, without being abandoned entirely.
+5.  **Clear & Understandable:** Written in simple, unambiguous language so everyone knows what is expected.
+6.  **Comprehensive:** Covers all critical aspects of the activity or function.
+7.  **Time-Bound:** Specifies deadlines and milestones.
+8.  **Evaluable:** Includes measurable targets so progress can be tracked.
+
+### 5. The Planning Process
+
+A systematic, step-by-step approach:
+
+1.  **Awareness of Opportunity / Problem:** Sensing the need to plan (e.g., a new market opens, or sales are dropping).
+2.  **Setting Objectives (Goals):** Defining what the organization wants to achieve. Objectives should be SMART (Specific, Measurable, Achievable, Relevant, Time-bound).
+3.  **Developing Premises (Assumptions):** Forecasting future internal and external conditions (e.g., economic trends, competitor behavior, resource availability). These are the “planning environment.”
+4.  **Identifying Alternatives:** Brainstorming different ways to achieve the objectives (e.g., expand through a new product, a new market, or a partnership).
+5.  **Evaluating Alternatives:** Analyzing each alternative’s pros, cons, costs, risks, and contribution to objectives.
+6.  **Selecting the Best Alternative:** Choosing the most promising course of action. This is the key decision point.
+7.  **Formulating Derivative Plans:** Creating supporting plans (budgets, schedules, policies, procedures) to implement the main plan.
+8.  **Implementing the Plan:** Putting the plan into action through organizing, staffing, and leading.
+9.  **Reviewing and Controlling:** Monitoring progress against the plan, measuring performance, and taking corrective action if necessary.
+
+### 6. Advantages and Limitations of Planning
+
+| Advantages (Why plan?) | Limitations (Potential pitfalls) |
+| :--- | :--- |
+| **1. Provides Direction:** Aligns efforts toward common goals. | **1. Rigidity:** Can create a “mechanical” approach, reducing flexibility to adapt to sudden changes. |
+| **2. Reduces Uncertainty:** Forces managers to anticipate changes and prepare responses. | **2. Time-Consuming:** Extensive planning can delay action and miss opportunities. |
+| **3. Minimizes Waste & Redundancy:** Identifies overlapping activities and efficient resource use. | **3. Costly:** Formal planning requires significant time, money, and personnel. |
+| **4. Sets Standards for Control:** Provides clear performance targets against which to measure actual results. | **4. False Sense of Security:** A plan may create complacency, causing managers to ignore warning signs. |
+| **5. Promotes Proactive Thinking:** Encourages managers to anticipate problems, not just react. | **5. Environmental Unpredictability:** Political, economic, or technological changes can make even the best plan obsolete. |
+| **Real World Example:** Amazon’s meticulous logistics planning allows one-day delivery, reducing inventory waste. | **Real World Example:** Kodak had a detailed plan for film photography but failed to adapt to digital disruption (rigidity & false security). |
+
+---
+
+## Part B: Decision Making
+
+### 1. Decision Making: An Introduction
+
+- **Definition:** Decision making is the process of identifying and choosing a course of action to solve a specific problem or take advantage of an opportunity. It is the essence of management – every manager’s job revolves around making decisions.
+- **Real World Analogy:** A decision is like a fork in the road. You have to choose one path. The quality of your decision determines where you end up.
+
+### 2. Rational Model of Decision Making (The Classic, “Ideal” Approach)
+
+This model assumes that managers are perfectly rational and objective, with complete information. It is a normative model (how decisions *should* be made).
+
+- **Assumptions:**
+    1.  **Problem Clarity:** The problem is clear and unambiguous.
+    2.  **Known Options:** The decision-maker knows all possible alternatives.
+    3.  **Clear Preferences:** Criteria (e.g., profit, cost) can be ranked.
+    4.  **Constant Preferences:** Criteria weights are stable over time.
+    5.  **No Time or Cost Constraints:** The manager has unlimited time and resources.
+    6.  **Maximum Payoff:** The chosen alternative will yield the maximum economic return.
+
+- **Steps of the Rational Model:**
+    1.  **Define the Problem:** Identify a discrepancy between a desired state and the current reality.
+    2.  **Identify Decision Criteria:** Determine what is relevant (e.g., cost, quality, speed).
+    3.  **Allocate Weights to Criteria:** Rank the criteria by importance.
+    4.  **Generate Alternatives:** List all possible solutions.
+    5.  **Evaluate Alternatives:** Compare each alternative against the weighted criteria.
+    6.  **Select the Optimal Alternative:** Choose the one with the highest score.
+
+- **Real World Example (in theory):** A company choosing a new office location. They list all possible cities, define criteria (cost, talent pool, tax incentives), assign weights, and calculate a perfect score to choose the “best” city.
+- **Criticism:** This model is unrealistic for most real-world decisions because managers rarely have complete information, time, or perfect rationality.
+
+### 3. Types of Decisions
+
+| Type | Basis | Characteristics | Example |
+| :--- | :--- | :--- | :--- |
+| **Programmed Decisions** | Routine, repetitive, well-structured problems. | Use rules, standard operating procedures (SOPs), or policies. Made by lower-level managers. | An HR manager using a standard checklist to approve a routine leave request. |
+| **Non-Programmed Decisions** | Unique, non-recurring, novel, ill-structured problems. | Require custom solutions, creativity, and judgment. Made by top-level managers. | A CEO deciding whether to acquire a competitor or launch a completely new product line. |
+| **Certainty** | All outcomes of each alternative are fully known. | Rare in business. The decision is straightforward. | A treasury manager investing in a government bond with a guaranteed 5% return. |
+| **Risk** | The probability of each outcome is known or can be estimated. | Most common type. Use of expected value, probability. | A marketing manager deciding which of two ad campaigns to run, knowing from past data that Campaign A has a 60% chance of a 20% sales increase and B has a 40% chance of a 30% increase. |
+| **Uncertainty** | Outcomes and their probabilities are completely unknown. | Requires intuition, heuristics, and “bounded rationality.” | A startup founder deciding which emerging technology to bet on for a product that does not yet have a market. |
+
+### 4. Behavioral Theory of Decision Making (How decisions *actually* get made)
+
+This theory, developed by Herbert Simon (Nobel Prize), recognizes the limitations of human rationality. It is a descriptive model.
+
+- **Key Concepts:**
+
+    - **Bounded Rationality:** Managers are rational but within limits – they are constrained by their own mental capacity, incomplete information, time pressure, and the complexity of the real world. They cannot be perfectly rational.
+
+    - **Satisficing (vs. Maximizing):** Instead of searching for the *optimal* solution (maximizing), managers often settle for a solution that is “good enough” (satisficing). Once they find an alternative that meets a minimum threshold, they stop searching.
+
+        - *Real World Example:* When hiring, a manager rarely interviews every possible candidate. They interview until they find someone “good enough” (satisficing), not necessarily the absolute “best” candidate (maximizing), because searching forever is impossible.
+
+    - **Intuition and Heuristics:** Managers rely on gut feeling, experience, and mental shortcuts (heuristics) to make decisions quickly under uncertainty.
+
+        - *Heuristic Example:* “If a supplier has been reliable for 10 years, I’ll approve this new contract without a full review.” (Availability heuristic – relying on easily recalled information).
+
+- **Implications for Managers:**
+    - Recognize your own cognitive biases (overconfidence, confirmation bias, anchoring).
+    - Use groups and structured processes (e.g., devil’s advocate, premortem) to counter bounded rationality.
+    - Balance rational analysis with intuition, especially for non-programmed decisions.
+
+- **Real World Analogy:** Rational model is like a chess grandmaster who calculates every possible move to perfection. Behavioral theory is like a club player who looks a few moves ahead, uses pattern recognition, and makes a “good enough” move given the time pressure. Most managers are the club player.
+
+---
+
 # Unit 4: Managing People and Human Resource (6 Hrs)
 
 ## 1. Organizational Behavior (OB)
