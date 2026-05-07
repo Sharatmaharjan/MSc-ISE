@@ -253,3 +253,136 @@
 
 ---
 
+
+
+# Exact Questions from All Exam Papers
+
+## 2014 (mis2014.png)
+
+**MIE121: Management Information System**
+
+1. What are the role and impact of MIS in an organization? Explain with example.
+
+2. Explain ethical and social impact of information systems with appropriate examples.
+
+3. What do you mean by Herbert Simon model of decision making process? Explain the various systems in MIS, which contribute in three phases of model.
+
+4. Explain the applications of MIS in internet based business sector with example.
+
+5. Explain the role of information system in any organization.
+
+6. Government of Nepal is planning to implement national ID system in the near future. The objective of this project is to provide unique ID to each citizen from which each citizen can access government service through online service portals. Imagine you are hired as MIS expert in the project. Discuss about the following issues in the context.
+   (a) What are the steps that you follow to solicit necessary information from the stakeholders?
+   (b) What are the suggestions that you provide to the project director to make this project successful?
+
+7. Write short notes on:
+   (a) Client server architecture
+   (b) Decision support systems
+   (c) Data ware housing
+   (d) Firewall
+
+---
+
+## 2015 (mis2015.png)
+
+**MIE121: Management Information System**
+
+1. Explain the conceptual view and physical view of MIS and also comparisons between them.
+
+2. What are the three steps of decision making process? Explain the Decision analysis by using analytical modeling with example.
+
+3. Explain the firewall and its functions in protecting the system and information assets.
+
+4. What are the three layer architecture uses in Data Warehouse? Explain the process flow of data warehouse model.
+
+5. Explain how is MIS applied in financial management? Discuss in detail its applications including accounting, query, decision analysis etc.
+
+6. Write short notes on any TWO:
+   (a) Client-Server Implementation strategies
+   (b) Electronic payment systems
+   (c) Business process Re-engineering
+
+---
+
+## 2016 (mis2016.png)
+
+**MIE121: Management Information System**
+
+1. What are the key features of modern information system? Explain the contemporary approaches to information system.
+
+2. What are the characteristics for DSS? How the Decision analysis is use in analytical modeling? Explain with example.
+
+3. Mention the three layer architecture use in Data Warehouse. Explain the process flow of data warehouse model with example.
+
+4. Explain the role of firewalls, intrusion detection system and encryption system in promoting security system.
+
+5. List and describe the information systems serving each of the major functional areas of a business.
+
+6. Write short notes on any TWO:
+   (a) Ethics in an information society
+   (b) Security in e-business
+   (c) Knowledge management
+
+---
+
+## 2017 (mis2017.png)
+
+**MIE121: Management Information System**
+
+1. Explain the impact of MIS. Explain the physical view of MIS with an example.
+
+2. How are management information systems different from transaction processing systems? Explain the Herbert Simon model of decision making process.
+
+3. How does encryption/decryption prevent unauthorized person read or change messages? Explain with a suitable example.
+
+4. Explain the significance of DSS. What are the various components of DSS? Discuss.
+
+5. Explain how is MIS applied in marketing management? Discuss in detail its applications in internet based business sector.
+
+6. Write short notes on any TWO:
+   (a) Digital Signature
+   (b) Data Warehouse
+   (c) Ethics in an information society.
+
+---
+
+## 2019 (mis2019.png) – CORRECTED VERSION
+
+**MIE121: Management Information System**
+
+1. Explain the impact of MIS on people, organization and management. Explain the physical view of MIS with example.
+
+2. Differentiate between management information systems (MIS) and transaction processing systems (TPS)? Explain the Herbert Simon model of decision making process with example.
+
+3. Explain with example how encryption/decryption prevents unauthorized person read or write the messages?
+
+4. Explain the role of DSS in an organization. Explain the components of DSS and its model with example?
+
+5. Discuss in detail with case study of conceptual model for MIS implementation in an industry.
+
+6. Write short notes on:
+   (a) Firewall security model
+   (b) Client server architecture
+
+---
+
+## 2022 (mis2022.png)
+
+**MIE121: Management Information System**
+
+1. What are the components of Information system? Explain the Physical view of MIS with example.
+
+2. Explain the process of decision making. Why analytical modeling is useful in decision analysis? Explain with example.
+
+3. Discuss the firewall security model and its functions in protecting MIS applications.
+
+4. Explain the three layer architecture used in Data Warehouse. What are the key factors important in designing data warehouse? Explain.
+
+5. Assume that you are hired as MIS expert in the Banking sector. How can you design the banking MIS? Discuss how Banks and customers will be benefited by developing online banking application.
+
+6. Write short notes on:
+   (a) Data communication
+   (b) Transaction processing
+
+---
+
